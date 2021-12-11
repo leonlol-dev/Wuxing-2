@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,23 +53,21 @@
     <UnityVersion>2020.3.24f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Assets\MouseLook.cs" />
-    <Compile Include="Assets\UpgradeSwitch.cs" />
-    <Compile Include="Assets\rock.cs" />
-    <Compile Include="Assets\coin.cs" />
-    <Compile Include="Assets\upgradeAnimation.cs" />
-    <Compile Include="Assets\gun.cs" />
-    <Compile Include="Assets\OutOfBoundsTest.cs" />
-    <Compile Include="Assets\WindWeapon.cs" />
-    <Compile Include="Assets\BoomBox.cs" />
-    <Compile Include="Assets\WindUpgrade.cs" />
-    <Compile Include="Assets\enemy.cs" />
-    <Compile Include="Assets\PlayerMovement.cs" />
-    <Compile Include="Assets\PressurePlate.cs" />
-    <Compile Include="Assets\PlayerUpgrade.cs" />
+    <Compile Include="Assets\scripts\MouseLook.cs" />
+    <Compile Include="Assets\scripts\UpgradeSwitch.cs" />
+    <Compile Include="Assets\scripts\rock.cs" />
+    <Compile Include="Assets\scripts\coin.cs" />
+    <Compile Include="Assets\scripts\upgradeAnimation.cs" />
+    <Compile Include="Assets\scripts\gun.cs" />
+    <Compile Include="Assets\scripts\OutOfBoundsTest.cs" />
+    <Compile Include="Assets\scripts\WindWeapon.cs" />
+    <Compile Include="Assets\scripts\BoomBox.cs" />
+    <Compile Include="Assets\scripts\WindUpgrade.cs" />
+    <Compile Include="Assets\scripts\enemy.cs" />
+    <Compile Include="Assets\scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\scripts\PressurePlate.cs" />
+    <Compile Include="Assets\scripts\PlayerUpgrade.cs" />
+    <Compile Include="Assets\scripts\coinCounter.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -1,0 +1,52 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class coin : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.Rotate(0, 0, 250 * Time.deltaTime);
+    }
+
+   
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.name=="Player")
+        {
+            other.GetComponent<coinCounter>().points++; //this adds points
+            Destroy(this.gameObject, 0.1f); //"0.1f" is duration
+
+
+
+
+
+
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
