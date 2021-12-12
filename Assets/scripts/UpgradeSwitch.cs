@@ -31,7 +31,7 @@ public class UpgradeSwitch : MonoBehaviour
             selectedUpgrade = 0;
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha2) && transform.childCount >= 2)
+        if (Input.GetKeyDown(KeyCode.Alpha2) && transform.childCount >= 2 && selectedUpgrade != 1)
         {
             //Rock Upgrade
             selectedUpgrade = 1;
@@ -39,7 +39,7 @@ public class UpgradeSwitch : MonoBehaviour
             //Reset states
             player.GetComponent<PlayerMovement>().windUpgrade = false;
             windweapon.alreadyUpgraded = false;
-            player.GetComponent<PlayerMovement>().speed = player.GetComponent<PlayerMovement>().speed - player.GetComponent<PlayerMovement>().defaultSpeed;
+            player.GetComponent<PlayerMovement>().speed = player.GetComponent<PlayerMovement>().defaultSpeed;
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha3) && transform.childCount >= 3)
