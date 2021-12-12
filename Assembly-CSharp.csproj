@@ -54,7 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\scripts\MouseLook.cs" />
-    <Compile Include="Assets\scripts\UpgradeSwitch.cs" />
+	<Compile Include="Assets\scripts\UpgradeSwitch.cs" />
     <Compile Include="Assets\scripts\rock.cs" />
     <Compile Include="Assets\scripts\coin.cs" />
     <Compile Include="Assets\scripts\upgradeAnimation.cs" />
@@ -65,9 +65,9 @@
     <Compile Include="Assets\scripts\WindUpgrade.cs" />
     <Compile Include="Assets\scripts\enemy.cs" />
     <Compile Include="Assets\scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\scripts\coinCounter.cs" />
     <Compile Include="Assets\scripts\PressurePlate.cs" />
     <Compile Include="Assets\scripts\PlayerUpgrade.cs" />
-    <Compile Include="Assets\scripts\coinCounter.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
