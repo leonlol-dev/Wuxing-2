@@ -54,7 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\scripts\MouseLook.cs" />
-	<Compile Include="Assets\scripts\UpgradeSwitch.cs" />
+    <Compile Include="Assets\scripts\UpgradeSwitch.cs" />
     <Compile Include="Assets\scripts\rock.cs" />
     <Compile Include="Assets\scripts\coin.cs" />
     <Compile Include="Assets\scripts\upgradeAnimation.cs" />
